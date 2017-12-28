@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)floatLabelBtn {
+    if (_floatLabelBtn == nil) {
+        _floatLabelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_floatLabelBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+        [_floatLabelBtn setTitle:@"浮动球" forState:UIControlStateNormal];
+        [_floatLabelBtn addTarget:self action:@selector(floatLabelClick:) forControlEvents:UIControlEventTouchUpInside];
+        [_floatLabelBtn setFrame:CGRectMake(0, 0, 70, 40)];
+        
+    }
+    return _floatLabelBtn;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>28FD1935-D2BD-457F-B52F-39E2E568AACA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIButton-Creator</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

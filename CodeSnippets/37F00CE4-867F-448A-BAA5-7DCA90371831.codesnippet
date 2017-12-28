@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UILabel*)label {
+    if (_label == nil) {
+        _label = [[UILabel alloc] init];
+        _label.textColor = [UIColor redColor];
+        _label.textAlignment = NSTextAlignmentLeft;
+        _label.numberOfLines = 0;
+        _label.lineBreakMode = NSLineBreakByWordWrapping;
+        _label.font = [UIFont systemFontOfSize:15];
+    }
+    return _label;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>37F00CE4-867F-448A-BAA5-7DCA90371831</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>LabelCreator</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
